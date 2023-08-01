@@ -1,0 +1,81 @@
+.bb-title {
+  font-size: 17px !important;
+  font-weight: bold !important;
+}
+
+.bb-bar {
+  stroke-width: 0 !important;
+}
+
+.bb-chart-radars .bb-shapes polygon {
+  fill-opacity: 0.2;
+  stroke-width: 0.7px;
+  fill: #00c73c !important;
+  stroke: #00c73c !important;
+}
+
+.radarChart {
+  display: flex;
+  justify-content: center;
+  font-size: 0.8rem;
+}
+
+.bb-title tspan:last-child {
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+
+.containerChart {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  background-color: #f5f5f5;
+}
+
+.containerChart
+  > .bb
+  > svg
+  > .bb-main
+  > .bb-chart
+  > .bb-chart-texts
+  > .bb-target-dataPrice {
+  display: none !important;
+}
+
+.bb-grid line {
+  stroke: #bbd8e7;
+  opacity: 0.3;
+}
+
+.bb-ygrid-line.grid0 line {
+  opacity: 0.5;
+  stroke: #b3a100;
+}
+
+.bb-axis-y-label {
+  font-weight: bold;
+}
+
+.bb-axis-y2-label {
+  font-weight: bold;
+}
+
+.logoChart {
+  background-repeat: no-repeat;
+  height: 256px;
+  width: 256px;
+  position: absolute;
+  background-position: center center;
+  background-size: 70%;
+  opacity: 0.3;
+}
+
+.qrCodeChart {
+  background-repeat: no-repeat;
+  height: 256px;
+  width: 256px;
+  position: absolute;
+  background-position: center center;
+  background-size: 30%;
+  opacity: 0.3;
+}
